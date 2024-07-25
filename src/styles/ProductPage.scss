@@ -1,0 +1,185 @@
+// #playerBox {
+//   .threekit {
+//     .logo___WOl4T {
+//       display: none;
+//     }
+//   }
+// }
+.imageUploadCustom {
+  .uploadButton {
+    background-color: #00396e;
+    color: #fff;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+    width: max-content;
+    margin: 0 auto;
+  }
+}
+.removeIconSelect {
+  svg {
+    width: 10px;
+    height: 10px;
+  }
+}
+.custonScrollBarThreeKit::-webkit-scrollbar {
+  width: 4px;
+}
+
+/* Track */
+.custonScrollBarThreeKit::-webkit-scrollbar-track {
+  background: #fff;
+  border-radius: 10px;
+}
+
+/* Handle */
+.custonScrollBarThreeKit::-webkit-scrollbar-thumb {
+  background: #e9e9e9;
+  border-radius: 10px;
+}
+.swiperSlideCustom {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding-bottom: 40px !important;
+  .swiper-button-prev,
+  .swiper-button-next {
+    background-color: #00396e;
+    width: 32px;
+    height: 32px;
+    border-radius: 4px;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    &::after {
+      font-size: 14px;
+      color: #fff;
+    }
+  }
+  .swiper-button-disabled {
+    background-color: #e9e9e9;
+  }
+  .sliderDetail {
+    width: 142px;
+    height: 142px;
+  }
+}
+
+.swiper-pagination-bullet {
+  height: auto !important;
+  text-align: left;
+  line-height: 22px;
+  font-size: 14px;
+  color: #545759;
+  opacity: inherit !important;
+  background: none !important;
+  bottom: 0;
+  left: 10px;
+  border-radius: 0 !important;
+  margin-right: 15px !important;
+}
+.swiper-pagination {
+  text-align: left !important;
+  bottom: 0 !important;
+  left: 10px !important;
+  margin-left: 7px !important;
+}
+.swiper-pagination-bullet-active {
+  color: #00396e;
+  border-bottom: 1px solid #00396e;
+  background-color: transparent;
+}
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  object-fit: cover;
+}
+
+// Threekit dwawer
+.tk-drawer {
+  &.crAtCu {
+    background: transparent;
+  }
+  &.drawer-main {
+    width: 100%;
+    max-width: 40%;
+    overflow: auto;
+    background: white;
+    @media only screen and (max-width: 767px) {
+      min-width: 100%;
+    }
+  }
+  &.drawer-header {
+    height: auto;
+  }
+}
+.player-custom {
+  div[class^='waterMark'],
+  div[class^='buttons'],
+  div[class^='logo'],
+  div[class^='button'] {
+    display: none;
+  }
+}
+
+.gallery-list-items {
+  @media only screen and (max-width: 767px) {
+    width: 100%;
+    text-align: center;
+  }
+  > div {
+    justify-content: flex-end;
+    padding-bottom: 60px;
+  }
+
+  @media only screen and (max-width: 767px) {
+    .gallery-item {
+      flex-direction: row;
+      gap: 1em;
+      button {
+        width: 8px;
+        height: 8px;
+        border-radius: 50% !important;
+        background-color: #00396e;
+        opacity: 0.3;
+        border: none;
+      }
+      button[aria-current='true'] {
+        opacity: 1;
+        border: 1px solid #231f20;
+      }
+      img {
+        display: none;
+      }
+    }
+  }
+}
+
+.color-pallets {
+  img {
+    width: 64px;
+    height: 64px;
+
+    @media only screen and (max-width: 992px) {
+      width: 45px;
+      height: 45px;
+    }
+
+    @media only screen and (max-width: 767px) {
+      width: 42px;
+      height: 42px;
+    }
+  }
+}
